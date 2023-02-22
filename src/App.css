@@ -24,16 +24,11 @@ nav {
   display: flex;
   margin-top: 0.5vh;
   margin-bottom: 0.5vh;
+  min-height: 10vh;
 }
 
 .Frame {
   padding: 2rem;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {

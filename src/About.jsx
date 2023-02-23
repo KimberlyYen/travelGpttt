@@ -5,7 +5,7 @@ import Frame from "./img/Frame.png";
 function About() {
   return (
     <div className="Frame">
-      <img src={Frame} alt="" />
+      <img src={Frame} alt="About_PNG" />
     </div>
   );
 }

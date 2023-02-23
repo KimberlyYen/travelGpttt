@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import About from "./About";
 import Team from "./Team";
 import Tellus from "./Tellus";
+import Loading from "./Loading";
 
 import {
   BrowserRouter as Router,
@@ -28,7 +29,9 @@ function App() {
         >
           <Route path="/" element={<About />} />
           <Route path="/tellus" element={<Tellus />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/load" element={<Loading />} />
+          {/* <Route path="/about" element={<About />} />
+                    <Route path="/about" element={<About />} /> */}
         </Route>
       </Routes>
     </Router>

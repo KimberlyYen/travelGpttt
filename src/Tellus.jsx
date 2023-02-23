@@ -9,7 +9,9 @@ function Tellus() {
         <img src={Ｔellus} alt="" />
       </div>
       <div className="inner_input_button">
-        <div className="inner_input">123</div>
+        <label>
+          <textarea type="text" className="inner_input" />
+        </label>
         <button className="inner_button">GENERATE</button>
         <div className="submit">Submit →</div>
       </div>

@@ -3,6 +3,8 @@ import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
 import Team from "./Team";
+import Tellus from "./Tellus";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,13 +22,13 @@ function App() {
             <div className="App">
               <Nav />
               <Outlet />
-              <Team />
+              {/* <Team /> */}
             </div>
           }
         >
           <Route path="/" element={<About />} />
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/about" element={<About />} /> */}
+          <Route path="/tellus" element={<Tellus />} />
+          {/* <Route path="/about" element={<About />} /> */}
         </Route>
       </Routes>
     </Router>

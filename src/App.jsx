@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route
+          path="/"
           element={
             <div className="App">
               <Nav />
@@ -23,9 +24,9 @@ function App() {
             </div>
           }
         >
-          <Route path="/about" element={<About />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} /> */}
         </Route>
       </Routes>
     </Router>

@@ -9,38 +9,19 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.logo {
-  position:absolute;
-  height: 4em;
-  /* padding: 1.5em; */
-  will-change: filter;
-  transition: filter 300ms;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 0;
-}
 
 .team {
   display: flex;
   margin-left: 0;
 }
 
-nav {
-  display: flex;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
-  min-height: 10vh;
-}
-
-.Frame {
-  padding: 2rem;
-}
-
 .container {
   margin-bottom: auto;
 }
 
-.container, .inner_input_button {
+.container, 
+.inner_input_button , 
+nav{
   display: flex;
   width: 100vw;
   flex-direction: column;
@@ -61,10 +42,10 @@ nav {
   line-height: 1.5;
 }
 
-.inner_button , .submit{
+.inner_button , 
+.submit{
   margin-left: auto;
   margin-right: 10vw;
-  /* margin-top: 20px 10vw 20px auto; */
   margin: 20px;
   margin-left: auto;
   padding: 4px 8px;
@@ -82,8 +63,23 @@ nav {
   height: 593px;
 }
 
+.logo {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: 4em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0;
+}
+
+
 .picture {
-  position:absolute;
-  width: 100vw;
-  height: 100vh;
+  position:relative;
+  top: -100px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }

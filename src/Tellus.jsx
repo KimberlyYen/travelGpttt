@@ -6,7 +6,7 @@ function Tellus() {
   return (
     <div className="container">
       <div>
-        <img src={Ｔellus} alt="" />
+        <img src={Ｔellus} alt="tellus_PNG" />
       </div>
       <div className="inner_input_button">
         <label>

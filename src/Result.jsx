@@ -4,8 +4,8 @@ import ResultImg from "./img/Result.png";
 
 function Result() {
   return (
-    <div className="picture">
-      <div>
+    <div className="result">
+      <div className="picture">
         <img src={ResultImg} alt="Result_PNG" />
       </div>
 

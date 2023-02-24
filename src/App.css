@@ -74,13 +74,3 @@ nav{
   margin-right: auto;
   line-height: 0;
 }
-
-
-.picture {
-  position:relative;
-  display: flex;
-  top: -100px;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-}

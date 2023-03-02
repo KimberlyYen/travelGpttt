@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Nav from "./Nav";
-import About from "./About";
-// import Team from "./Team";
-import Tellus from "./Tellus";
-import Loading from "./Load";
-import Result from "./Result";
+import Nav from "./components/Nav";
+import About from "./pages/About";
+import Tellus from "./pages/Tellus";
+import Load from "./pages/Load";
+import Result from "./pages/Result";
+import Site from "./pages/Site";
 
 import {
   BrowserRouter as Router,
@@ -24,15 +24,14 @@ function App() {
             <div className="App">
               <Nav />
               <Outlet />
-              {/* <Team /> */}
             </div>
           }
         >
           <Route path="/" element={<About />} />
           <Route path="/tellus" element={<Tellus />} />
-          <Route path="/load" element={<Loading />} />
+          <Route path="/load" element={<Load />} />
           <Route path="/result" element={<Result />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/site" element={<Site />} />
         </Route>
       </Routes>
     </Router>

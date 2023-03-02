@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import team from "./img/team.png";
+import team from "../img/team.png";
 
 function Team() {
   return (
